@@ -8,3 +8,7 @@ jobs:
         run: echo "hello world"
       - name: print bye
         run: echo "good bye"
+      - name: pipeline
+        run: |
+          echo "first job"
+          echo "second job"
